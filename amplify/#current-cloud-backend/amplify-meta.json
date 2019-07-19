@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "eventcm-dev-20190719104551-authRole",
+			"UnauthRoleArn": "arn:aws:iam::971864126086:role/eventcm-dev-20190719104551-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::971864126086:role/eventcm-dev-20190719104551-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "eventcm-dev-20190719104551-deployment",
+			"UnauthRoleName": "eventcm-dev-20190719104551-unauthRole",
+			"StackName": "eventcm-dev-20190719104551",
+			"StackId": "arn:aws:cloudformation:us-east-1:971864126086:stack/eventcm-dev-20190719104551/48ef6900-aa3c-11e9-ba2c-12713880e578"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/eventcm-dev-20190719104551-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-07-19T15:50:25.316Z",
+			"output": {
+				"S3BucketSecureURL": "https://event-20190719104741-hostingbucket-dev.s3.amazonaws.com",
+				"WebsiteURL": "http://event-20190719104741-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
+				"Region": "us-east-1",
+				"HostingBucketName": "event-20190719104741-hostingbucket-dev"
+			},
+			"lastPushDirHash": "OIscGSXzUJgF1PmIN+YfhgJbH4o="
+		}
+	}
+}

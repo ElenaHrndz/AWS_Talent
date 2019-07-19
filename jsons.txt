@@ -1,0 +1,17 @@
+crear
+{
+  "description": "Conferencia",
+  "name": "Reto",
+  "link": "https://serverless.com/framework/docs/providers/aws/guide/quick-start/",
+  "prerequisites": "Computadora",
+  "address": "insurgentes 122",
+  "eventDate": "2 de agosto",
+  "eventHour": "12:00",
+  "capacity": 200,
+  "banner":"https://github.com/aurbac?tab=repositories"
+}
+
+borrar
+{
+ "id_evento": "34"
+}
