@@ -45,15 +45,15 @@ export default {
   },
   computed: {
     menuItems () {
-      let menuItems = [
+    //   let menuItems = [
         // {
         //   icon: 'fas fa-user',
         //   title: 'Usuario',
         //   link: '/register'
         // }
-      ]
-      return menuItems
-    }
+    //   ]
+    //   return menuItems
+    // }
   }
 }
 </script>
