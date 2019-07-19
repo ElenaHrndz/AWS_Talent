@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "eventcm-dev-20190719104551-authRole",
+            "UnauthRoleArn": "arn:aws:iam::971864126086:role/eventcm-dev-20190719104551-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::971864126086:role/eventcm-dev-20190719104551-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "eventcm-dev-20190719104551-deployment",
+            "UnauthRoleName": "eventcm-dev-20190719104551-unauthRole",
+            "StackName": "eventcm-dev-20190719104551",
+            "StackId": "arn:aws:cloudformation:us-east-1:971864126086:stack/eventcm-dev-20190719104551/48ef6900-aa3c-11e9-ba2c-12713880e578"
+        }
+    }
+}
